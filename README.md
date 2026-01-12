@@ -25,7 +25,9 @@ A PaaS-first architecture was selected to balance scalability, cost predictabili
 Managed services such as Azure App Service and Azure SQL Database reduce infrastructure management effort while providing built-in availability.
 
 ## Architecture Diagram
-*(Diagram will be added here)*
+
+![Azure PaaS-first Architecture Diagram](diagrams/azure-paas-architecture.png)
+
 
 ## Practical Validation
 To validate the proposed design, Azure managed services were reviewed directly through the Azure Portal and Azure Pricing Calculator.
