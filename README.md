@@ -30,8 +30,21 @@ Managed services such as Azure App Service and Azure SQL Database reduce infrast
 
 
 ## Practical Validation
-To validate the proposed design, Azure managed services were reviewed directly through the Azure Portal and Azure Pricing Calculator.
-This validation confirms that the architecture aligns with real Azure service capabilities before deployment.
+
+The proposed architecture was validated using Azure Portal and Azure Pricing Calculator to ensure feasibility before deployment.
+
+### Azure App Service Validation
+![Azure App Service Validation](validation/app-service-validation.png)
+
+### Azure SQL Database Validation
+![Azure SQL Database Validation](validation/sql-database-validation.png)
+
+### Azure Monitor Validation
+![Azure Monitor Validation](validation/azure-monitor-validation.png)
+
+### Cost Estimation Using Azure Pricing Calculator
+![Azure Pricing Calculator Estimate](validation/pricing-calculator-estimate.png)
+
 
 ## Key Learnings
 - Cloud architecture decisions are driven by constraints, not tools  
